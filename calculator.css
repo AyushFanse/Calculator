@@ -1,0 +1,53 @@
+#calcform{
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgb(199, 179, 188) 0%, rgb(116, 175, 248) 100%);
+    width: 185px;
+    height: auto;
+    margin: auto;
+    padding:5px;
+}
+form{
+    box-sizing: border-box;
+    border:4px rgba(0, 0, 0, 0.418) solid;
+    margin: 2px;
+    border-radius: 10px;
+    box-shadow: 800px;
+}
+input{
+    padding: 10px;
+}
+.redius{
+    border-radius: 8px;
+    margin: 3px;
+    background: radial-gradient(circle, rgb(228, 228, 228) 0%, rgb(160, 160, 160) 100%);
+}
+.redius1{
+    border-radius: 8px;
+    width:40px;
+    background: radial-gradient(circle, rgb(228, 228, 228) 0%, rgb(160, 160, 160) 100%);
+}
+.redius2{
+    border-radius: 8px;
+    width:31px;
+    margin: 3px;
+    background: radial-gradient(circle, rgb(228, 228, 228) 0%, rgb(160, 160, 160) 100%);
+}
+.reset{
+    border-radius: 8px; width: 113px;
+    margin: 3px;
+    background: radial-gradient(circle, rgb(228, 228, 228) 0%, rgb(160, 160, 160) 100%);
+}
+.inputbox{
+    border-radius: 6px; 
+    width: 140px;
+    font-size:18px;
+    height: 30px; 
+    background-color: rgb(47, 39, 70);
+    color: rgb(182, 255, 251);
+    
+    margin: 3px;
+}
+.redius1:hover,.redius:hover,.redius2:hover,.reset:hover{
+    background:rgb(158, 158, 158);
+    transition:0.5s;
+}
