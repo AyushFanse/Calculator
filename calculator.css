@@ -51,3 +51,9 @@ input{
     background:rgb(158, 158, 158);
     transition:0.5s;
 }
+#btn00{
+    border-radius: 8px;
+    width:40px;
+    color:rgb(68, 0, 255);
+    background: radial-gradient(circle, rgb(255, 162, 40) 30%, rgb(255, 60, 0) 100%);
+}
